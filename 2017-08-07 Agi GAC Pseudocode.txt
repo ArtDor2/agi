@@ -1,0 +1,79 @@
+# PSEUDOCODE
+# Using Good AI Challenge Facebook environment
+
+init():
+
+
+getInput():
+	input(time:val) = getEnvInputChar()
+	input(time:rev) = getEnvInputReward()
+
+AgiCompute():
+	for input(time):
+		agent.name.energy = 1 # Activate lv0 agents (input agents that are directly linked to input) to begin info flow
+	if input == none: idle()
+	
+	patternExtractFromInputForEachLevel(): # lv1 pattern match ??
+		# check characters of input (back i steps) to generate agent if repeating
+		
+		#for input in inputArchive(task):
+		#	# exact pattern match
+		#	inputBlock = ""
+		
+		for ch in _inCurrent:
+			block = _inCurrent[start:end]
+			if mind.exists() #??
+			start ++
+			end ++
+				
+				blockRange ++
+			if inputBlock == agent(inputBlock) # agent by name inputBlock
+		if new agent or link, create new, else strengthen existing
+			for charCombTotal[]:
+				for charComb[i]
+	patternMatchAgents():
+		?? link input (agents lv0) and agents to output (agnets lvFinal)
+		
+	agentInfoFlow():
+		for activeAgent in 
+	outputAdd(time:outVal)
+	
+	#???? linking input to agents to output
+	
+	time++
+
+pattern():
+	# get block for all (logical ie words) combinations in CURRENT _in
+		# for each block:
+			# check if main.exists(block)
+				# if new, make agent
+			# FLAG (to perform on optimization) to reinforce links, degrade unused
+			# discover new links
+				# if recurring pattern (repeating for same situation), make link
+				
+	#???? pattern between agents, agent hierarchy (letters, words, sentences)
+	
+mind():
+	mInit():
+		# blank agents if file absent
+	exists(): # check agent
+	new(): #make new agent
+	delete(): # remove agent for optimization
+	link(): # link between agents
+		type():
+			# agent to agent
+			# link to link (middle)
+		
+idle():
+	optimizeAgentRelationships() # optimize agents
+		
+_out():
+	for output() send envOutput(time)
+	
+while True:
+	AgiCompute()
+	
+### NOTES:
+# agents info flows, not in fuctions as is now. Agents contain the compute
+# !! the hierarchy is just for the info flow, the agents themselves are just in a list/disctionary(??)
+# !!!! NEED MORE SOPHISTICATED PATTERN RECOGNITION ALGORITHM (?? using agent links)
