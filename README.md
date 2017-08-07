@@ -1,0 +1,2 @@
+# Agi
+Artificial General Intelligence
