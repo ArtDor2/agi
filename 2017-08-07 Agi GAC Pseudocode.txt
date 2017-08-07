@@ -1,7 +1,7 @@
 # PSEUDOCODE
 # Using Good AI Challenge Facebook environment
 
-init():
+init(): #initialize the mind
 
 
 getInput():
