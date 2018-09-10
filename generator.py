@@ -7,11 +7,12 @@ file.close()
 
 def node_add(node_name):
     # node add to mind
+    print(node_name)
 
-
+    
 
 # read the env_text
 for pos in range(len(text)):
     # pattern match 1 neighbors left and right
     if str(text[pos]):
-        #node_add(pos)
+        node_add(pos)
